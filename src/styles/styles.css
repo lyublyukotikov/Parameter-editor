@@ -1,0 +1,95 @@
+.params_editor {
+  display: flex;
+  column-gap: 60px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.edit__form__body {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit__form__label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.edit__form__input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit__form__button {
+  display: flex;
+  justify-content: center;
+}
+
+.params-editor__button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.params-editor__button:hover {
+  background-color: #0056b3;
+}
+
+.product__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #007bff;
+  padding: 20px;
+  
+}
+
+.product__card img {
+  margin-bottom: 20px;
+}
+
+.product__card__body {
+  overflow: hidden;
+  max-width: 230px;
+  width: 100%;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.product__card__characteristic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product__card__name {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.product__card__value {
+  font-size: 16px;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 700px) {
+  .params_editor {
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+  }
+}

@@ -1,8 +1,9 @@
-# React + Vite
+Это приложение React, созданное с использованием Vite.
+------------------------------------------------------------------
+Клонируйте репозиторий на ваш компьютер: git clone <repository-url>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Перейдите в каталог проекта: cd parameter-editor
 
-Currently, two official plugins are available:
+Установите зависимости: npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Чтобы запустить сервер разработки, выполните следующую команду:npm run dev
